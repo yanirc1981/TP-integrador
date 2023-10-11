@@ -1,0 +1,67 @@
+@import url('http://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+   font-family: 'Montserrat',sans-serif;
+   overflow-x: hidden;
+
+}
+
+#menu a{
+font-size: 18px;
+font-weight: bold;
+color: #3f3f3f;
+}
+#menu button{
+    font-size: 18px;
+    font-weight: bold; 
+}
+.carousel-inner{
+    max-height: 39rem;
+
+
+}
+.titulo{
+    text-align: center;
+    padding-top: 15px;
+}
+.card-img{
+    opacity: 75%;
+    height: 500px;
+}
+footer{
+    background-color:#3f3f3f;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 10px;
+   
+    color: #f3f3f3;
+    display:inline-flexbox;
+   
+
+}
+
+@media(max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    
+}
+
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
